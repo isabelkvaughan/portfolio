@@ -1,5 +1,6 @@
 import React from 'react';
 import NavTabs from './NavTabs';
+var ReactRotatingText = require('react-rotating-text');
 
 const styles = {
   header: {
@@ -12,13 +13,17 @@ const styles = {
   headerTitle: {
     color: '#A6C2EE',
     margin: '0',
+    textDecoration: 'none'
   },
 };
 
 function Header({ currentPage, handlePageChange }) {
   return (
     <header style={styles.header}>
-      <p style={styles.headerTitle}>Isabel Noonan</p>
+      <a href="#about" style={styles.headerTitle}>
+        Isabel Noonan - <ReactRotatingText items={['Web Developer', 'Digital Producer', 'Designer']} />
+
+      </a>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
   );

@@ -15,6 +15,7 @@ const styles = {
     textDecoration: 'none',
     color: '#A6C2EE',
     transition: 'color 0.3s',
+    hover: '#54667D'
   },
   activeLink: {
     fontWeight: 'bold',
@@ -33,6 +34,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#about"
           onClick={() => handlePageChange('About')}
           style={currentPage === 'About' ? { ...styles.navLink, ...styles.activeLink } : styles.navLink}
+          className="navLink"
         >
           About
         </a>
@@ -42,6 +44,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
           style={currentPage === 'Portfolio' ? { ...styles.navLink, ...styles.activeLink } : styles.navLink}
+          className="navLink"
         >
           Portfolio
         </a>
@@ -51,6 +54,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#contact"
           onClick={() => handlePageChange('Contact')}
           style={currentPage === 'Contact' ? { ...styles.navLink, ...styles.activeLink } : styles.navLink}
+          className="navLink"
         >
           Contact
         </a>
@@ -60,6 +64,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           href="#resume"
           onClick={() => handlePageChange('Resume')}
           style={currentPage === 'Resume' ? { ...styles.navLink, ...styles.activeLink } : styles.navLink}
+          className="navLink"
         >
           Resume
         </a>

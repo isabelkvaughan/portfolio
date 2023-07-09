@@ -5,10 +5,6 @@
     --background: #F5EFEC;
 }
 
-* {
-    background-color: var(--background);
-}
-
 body {
     font-family: 'Questrial', sans-serif!important;
 }
