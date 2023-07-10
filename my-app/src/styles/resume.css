@@ -1,0 +1,43 @@
+:root {
+  --primary: #A6C2EE;
+  --light: #FEFEFE;
+  --dark: #54667D;
+  --background: #F5EFEC;
+}
+
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionContainer {
+  width: 80%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: var(--primary);
+  line-height: 1.5;
+}
+
+.sectionContainer .section {
+  width: 50%;
+  text-align: center;
+}
+
+.sectionContainer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sectionContainer li {
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .sectionContainer {
+    width: 60%;
+  }
+}
