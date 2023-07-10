@@ -10,15 +10,7 @@
     flex-direction: column;
     align-items: center;
   }
-  
-  .heading {
-    text-align: center;
-    font-family: 'Cormorant Upright';
-    font-size: 5rem;
-    color: var(--primary);
-    margin-top: 50px!important;
-  }
-  
+
   .contentContainer {
     width: 80%;
     margin-bottom: 50px;
