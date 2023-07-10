@@ -1,0 +1,33 @@
+:root {
+  --primary: #A6C2EE;
+  --light: #FEFEFE;
+  --dark: #54667D;
+  --background: #F5EFEC;
+}
+
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .projectContainer {
+    justify-content: flex-start;
+  }
+
+  .project {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .project {
+    width: calc(33.33% - 10px);
+  }
+}
