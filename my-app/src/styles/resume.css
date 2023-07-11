@@ -26,6 +26,12 @@
   text-align: center;
 }
 
+.sectionContainer h5 {
+  font-family: 'Questrial', sans-serif!important;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
 .sectionContainer ul {
   list-style-type: none;
   padding: 0;
@@ -34,6 +40,15 @@
 
 .sectionContainer li {
   margin-bottom: 5px;
+}
+
+.downloadCV {
+  color: var(--primary);
+  transition: 0.3s;
+}
+
+.downloadCV:hover {
+  color: var(--dark);
 }
 
 @media (min-width: 768px) {

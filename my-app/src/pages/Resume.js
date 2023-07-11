@@ -9,7 +9,7 @@ export default function Resume() {
       <PageHeading pageHeading='Resume' />
       <div className='sectionContainer'>
         <div className='section'>
-          <p>Front-End Proficiencies</p>
+          <h5>Front-End Proficiencies</h5>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -18,11 +18,12 @@ export default function Resume() {
             <li>Responsive Design</li>
             <li>Bootstrap</li>
             <li>Flexbox</li>
+            <li>TypeScript</li>
           </ul>
         </div>
 
         <div className='section'>
-          <p>Back-End Proficiencies</p>
+          <h5>Back-End Proficiencies</h5>
           <ul>
             <li>APIs</li>
             <li>Node.js</li>
@@ -37,7 +38,7 @@ export default function Resume() {
       </div>
 
       <div>
-      <a href={CV} download="IsabelNoonan_CV.pdf"> Download Isabel's CV here</a>
+      <a href={CV} className='downloadCV' download="IsabelNoonan_CV.pdf"> Download Isabel's CV here</a>
       </div>
     </div>
   );
