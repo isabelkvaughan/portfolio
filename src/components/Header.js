@@ -24,7 +24,11 @@ const styles = {
 function Header({ currentPage, handlePageChange }) {
   return (
     <header style={styles.header}>
-      <a href="#about" style={styles.headerTitle}>
+      <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          style={styles.headerTitle}
+          className="navLink">
         Isabel Noonan - <ReactRotatingText style={styles.rotatingText} items={['Web Developer', 'Digital Producer', 'Designer', 'Project Manager']} />
 
       </a>
