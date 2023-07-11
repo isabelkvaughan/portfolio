@@ -16,6 +16,7 @@ const styles = {
 function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [emailBlurred, setEmailBlurred] = useState(false);
   const [message, setMessage] = useState('');
   const [showValidation, setShowValidation] = useState(false);
 
@@ -31,7 +32,10 @@ function ContactForm() {
     setMessage(e.target.value);
   };
 
-  const handleBlur = () => {
+  const handleBlur = (field) => {
+    if (field === 'email') {
+      setEmailBlurred(true);
+    }
     setShowValidation(true);
   };
 
@@ -40,12 +44,14 @@ function ContactForm() {
     setName('');
     setEmail('');
     setMessage('');
-    setShowValidation(false);
   };
 
   const isEmailValid = () => {
-    if (showValidation && email === '') {
+    if (showValidation && email.trim() === '') {
       return false;
+    }
+    if (email == emailBlurred) {
+      return true;
     }
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
