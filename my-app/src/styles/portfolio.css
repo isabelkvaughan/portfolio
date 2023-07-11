@@ -22,6 +22,23 @@
   align-items: center;
   text-align: center;
   padding: 10px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .project h2 a {
@@ -30,28 +47,24 @@
   font-weight: bold;
   margin-top: 0;
   color: var(--dark);
-}
-.project h2:hover {
-  color: #3f4f65;
-}
-
-.project p {
-  /* font-size: 3rem; */
-  margin-bottom: 0;
-}
-
-.project p:hover {
-  color: #3f4f65;
+  white-space: nowrap
 }
 
 .projectImage {
   width: 100%;
   transition: 0.3s;
-
 }
 
-.projectImage:hover {
-  opacity: 30%;
+.project:hover  .projectImage {
+  opacity: 15%;
+}
+
+.project:hover .overlay .text {
+  display: block;
+}
+
+.project .overlay .text {
+  display: none;
 }
 
 @media (min-width: 768px) {
