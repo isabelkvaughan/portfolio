@@ -1,4 +1,4 @@
-# React Portfolio
+# Isabel's React Portfolio
 
 ## User Story
 
@@ -36,3 +36,38 @@ WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+```
+
+## Technologies Used
+
+- React.js
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- React Bootstrap
+- React DOM
+- React Rotating Text
+
+## Installation & Links
+
+1. Clone the repository.
+2. Install dependencies using run `npm install`.
+3. Build the application using `npm run build`.
+3. Start the application using `npm start`.
+
+- GitHub Repository: [github.com/isabelkvaughan/portfolio](https://github.com/isabelkvaughan/portfolio/)
+
+## Mockup
+The following image shows an example of how the application will look on Desktop.
+![Isabel's Portfolio: Desktop](./assets/about-desktop.png)
+
+The following image shows an example of how the application will look on Mobile.
+![Isabel's Portfolio: Mobile](./assets/about-mobile.png)
+
+## Contact
+
+Isabel Noonan
+
+- LinkedIn: [linkedin.com/in/isabelknoonan](https://www.linkedin.com/in/isabelknoonan/)
+- GitHub profile: [github.com/isabelkvaughan](https://github.com/isabelkvaughan)
