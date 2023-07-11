@@ -12,8 +12,8 @@
 }
 
 .project {
-  width: calc(50% - 5px);
-  height: 150px;
+  width: 100%;
+  height: auto;
   margin-bottom: 10px;
   background-color: var(--primary);
   display: flex;
@@ -36,7 +36,7 @@
 }
 
 .project p {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   margin-bottom: 0;
 }
 
@@ -44,13 +44,18 @@
   color: #3f4f65;
 }
 
-/* .projectImage {
+.projectImage {
   width: 100%;
-} */
+  transition: 0.3s;
+
+}
+
+.projectImage:hover {
+  opacity: 30%;
+}
 
 @media (min-width: 768px) {
   .project {
     width: calc(33.33% - 10px);
-    height: 300px;
   }
 }
