@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import '../styles/portfolio.css';
 import Project from '../components/Project';
 
-import DevLearn from '../assets/devlearn-blog.png';
-import TextEditor from '../assets/text-editor.png';
+import DevLearn from '../assets/dev-learn.png';
+import TextEditor from '../assets/jate.png';
 import WorkScheduler from '../assets/work-scheduler.png';
-import BidWise from '../assets/bidwise.png';
+import BidWise from '../assets/bid-wise.png';
 import PasswordGenerator from '../assets/password-generator.png';
 import NoteTaker from '../assets/note-taker.png';
 
