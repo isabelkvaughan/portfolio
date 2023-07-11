@@ -33,7 +33,7 @@ export default function Portfolio() {
     },
      {
     projectTitle: 'BidWise',
-    liveApp: 'https://dev-learn-app.herokuapp.com/',
+    liveApp: 'https://bidwise-17470057eaed.herokuapp.com/',
     repoName: 'BidWise',
     image: BidWise
     },
@@ -45,7 +45,7 @@ export default function Portfolio() {
     },
     {
     projectTitle: 'Note Taker',
-    liveApp: 'https://express-note-taker-i.herokuapp.com/',
+    liveApp: 'https://express-note-taker-i-126b72b78e65.herokuapp.com/',
     repoName: 'express-note-taker',
     image: NoteTaker
     }
