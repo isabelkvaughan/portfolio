@@ -24,8 +24,15 @@
   padding: 10px;
 }
 
-.project h2 {
+.project h2 a {
+  font-family: 'Questrial', sans-serif!important;
+  text-decoration: none;
+  font-weight: bold;
   margin-top: 0;
+  color: var(--dark);
+}
+.project h2:hover {
+  color: #3f4f65;
 }
 
 .project p {
@@ -33,9 +40,13 @@
   margin-bottom: 0;
 }
 
-.projectImage {
-  width: auto;
+.project p:hover {
+  color: #3f4f65;
 }
+
+/* .projectImage {
+  width: 100%;
+} */
 
 @media (min-width: 768px) {
   .project {

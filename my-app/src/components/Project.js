@@ -4,6 +4,7 @@ import '../styles/portfolio.css';
 const Project = ({ projectTitle, liveApp, repoName, image }) => {
   const divStyle = {
     backgroundImage: `url(${image})`,
+    backgroundColour: `rgba(166,194,238,0.5)`,
   };
 
   return (

@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import '../styles/portfolio.css';
 import Project from '../components/Project';
-import grapes from '../assets/grapes.jpeg';
+
+import DevLearn from '../assets/devlearn-blog.png';
+import TextEditor from '../assets/text-editor.png';
+import WorkScheduler from '../assets/work-scheduler.png';
+import BidWise from '../assets/bidwise.png';
+import PasswordGenerator from '../assets/password-generator.png';
+import NoteTaker from '../assets/note-taker.png';
 
 
 export default function Portfolio() {
@@ -11,55 +17,37 @@ export default function Portfolio() {
     projectTitle: 'DevLearn Hub',
     liveApp: 'https://dev-learn-app.herokuapp.com/',
     repoName: 'dev-learn-hub',
-    image: grapes
+    image: DevLearn
     },
     {
     projectTitle: 'Just Another Text Editor',
-    liveApp: 'https://dev-learn-app.herokuapp.com/',
-    repoName: 'dev-learn-hub',
-    image: grapes
+    liveApp: 'https://another-text-editor-d3636211ee47.herokuapp.com/',
+    repoName: 'another-text-editor',
+    image: TextEditor
     },
     {
     projectTitle: 'Work Day Scheduler',
-    liveApp: 'https://dev-learn-app.herokuapp.com/',
-    repoName: 'dev-learn-hub',
-    image: grapes
+    liveApp: 'https://isabelkvaughan.github.io/work-day-scheduler/',
+    repoName: 'work-day-scheduler',
+    image: WorkScheduler
     },
      {
     projectTitle: 'BidWise',
     liveApp: 'https://dev-learn-app.herokuapp.com/',
-    repoName: 'dev-learn-hub',
-    image: grapes
+    repoName: 'BidWise',
+    image: BidWise
     },
     {
-    projectTitle: 'Just Another Text Editor',
-    liveApp: 'https://dev-learn-app.herokuapp.com/',
-    repoName: 'dev-learn-hub',
-    image: grapes
-    },
-    {
-    projectTitle: 'e-Commerce Back End',
-    liveApp: 'https://dev-learn-app.herokuapp.com/',
-    repoName: 'dev-learn-hub',
-    image: grapes
-    },
-     {
-    projectTitle: 'Social Network API',
-    liveApp: 'https://dev-learn-app.herokuapp.com/',
-    repoName: 'dev-learn-hub',
-    image: grapes
+    projectTitle: 'Password Generator',
+    liveApp: 'https://isabelkvaughan.github.io/password-generator-isabel/',
+    repoName: 'password-generator-isabel',
+    image: PasswordGenerator
     },
     {
     projectTitle: 'Note Taker',
-    liveApp: 'https://dev-learn-app.herokuapp.com/',
-    repoName: 'dev-learn-hub',
-    image: grapes
-    },
-    {
-    projectTitle: 'Weather Dashboard',
-    liveApp: 'https://dev-learn-app.herokuapp.com/',
-    repoName: 'dev-learn-hub',
-    image: grapes
+    liveApp: 'https://express-note-taker-i.herokuapp.com/',
+    repoName: 'express-note-taker',
+    image: NoteTaker
     }
   ]
 
