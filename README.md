@@ -57,6 +57,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 3. Start the application using `npm start`.
 
 - GitHub Repository: [github.com/isabelkvaughan/portfolio](https://github.com/isabelkvaughan/portfolio/)
+- Deployed Application: [github.com/isabelkvaughan.github.io/portfolio](https://isabelkvaughan.github.io/portfolio/)
 
 ## Mockup
 The following image shows an example of how the application will look on Desktop.
