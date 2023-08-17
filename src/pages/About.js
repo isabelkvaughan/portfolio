@@ -30,7 +30,7 @@ export default function About() {
       </div>
       <div className='imageContainer'>
         <div className='image'><img src={imageOne} className='imageE' alt='amsterdam'/></div>
-        <div className='image'><img src={imageTwo} className='imageE' alt='isabel-nz'/></div>
+        <div className='image'><img src={imageTwo} className='imageE' alt='isabel'/></div>
         <div className='image'><img src={imageThree} className='imageE' alt='isabel-farm'/></div>
       </div>
     </div>
