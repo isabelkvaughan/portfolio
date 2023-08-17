@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/portfolio.css';
 import Project from '../components/Project';
 
 import DevLearn from '../assets/dev-learn.png';
 import TextEditor from '../assets/jate.png';
 import WorkScheduler from '../assets/work-scheduler.png';
-import BidWise from '../assets/bid-wise.png';
+import GetToGather from '../assets/get-to-gather.png';
 import PasswordGenerator from '../assets/password-generator.png';
 import NoteTaker from '../assets/note-taker.png';
 
@@ -32,10 +32,10 @@ export default function Portfolio() {
     image: WorkScheduler
     },
      {
-    projectTitle: 'BidWise',
-    liveApp: 'https://bidwise-17470057eaed.herokuapp.com/',
-    repoName: 'BidWise',
-    image: BidWise
+    projectTitle: 'GetToGather',
+    liveApp: 'https://blooming-brook-79575-68bc8b313ace.herokuapp.com/',
+    repoName: 'GetToGather',
+    image: GetToGather
     },
     {
     projectTitle: 'Password Generator',

@@ -51,22 +51,23 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li style={styles.navItem}>
         <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          style={currentPage === 'Contact' ? { ...styles.navLink, ...styles.activeLink } : styles.navLink}
-          className="navLink"
-        >
-          Contact
-        </a>
-      </li>
-      <li style={styles.navItem}>
-        <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
           style={currentPage === 'Resume' ? { ...styles.navLink, ...styles.activeLink } : styles.navLink}
           className="navLink"
         >
           Resume
+        </a>
+      </li>
+      <li style={styles.navItem}>
+        <a
+          href="https://www.linkedin.com/in/isabelknoonan/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={currentPage === 'LinkedIn' ? { ...styles.navLink, ...styles.activeLink } : styles.navLink}
+          className="navLink"
+        >
+          LinkedIn
         </a>
       </li>
     </ul>
