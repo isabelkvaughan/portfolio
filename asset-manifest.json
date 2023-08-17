@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4a2c7a89.css",
-    "main.js": "/portfolio/static/js/main.2d76c679.js",
+    "main.css": "/portfolio/static/css/main.ddf61a7d.css",
+    "main.js": "/portfolio/static/js/main.fee535ea.js",
     "static/media/about-isabel.jpg": "/portfolio/static/media/about-isabel.c7a31ac499689b766aac.jpg",
     "static/media/jade-stephens-fTVigwKgRYA-unsplash.jpg": "/portfolio/static/media/jade-stephens-fTVigwKgRYA-unsplash.e2c862b675b9b6b62b07.jpg",
-    "static/media/bid-wise.png": "/portfolio/static/media/bid-wise.b30c8c406c5494feebc6.png",
-    "static/media/IsabelNoonan_CV.pdf": "/portfolio/static/media/IsabelNoonan_CV.abd4479d5a7ef7f5207f.pdf",
+    "static/media/get-to-gather.png": "/portfolio/static/media/get-to-gather.35059f0a8aa38b34ed46.png",
     "static/media/about-farm.jpg": "/portfolio/static/media/about-farm.80d753bd98ce3f829ac6.jpg",
     "static/media/dev-learn.png": "/portfolio/static/media/dev-learn.e1bfe9e910857ffcb0c5.png",
     "static/media/work-scheduler.png": "/portfolio/static/media/work-scheduler.0223f8afbb9233471690.png",
@@ -13,11 +12,11 @@
     "static/media/note-taker.png": "/portfolio/static/media/note-taker.5ee9e2247c7449064fc0.png",
     "static/media/jate.png": "/portfolio/static/media/jate.efc84ec00b3ea5cf717e.png",
     "index.html": "/portfolio/index.html",
-    "main.4a2c7a89.css.map": "/portfolio/static/css/main.4a2c7a89.css.map",
-    "main.2d76c679.js.map": "/portfolio/static/js/main.2d76c679.js.map"
+    "main.ddf61a7d.css.map": "/portfolio/static/css/main.ddf61a7d.css.map",
+    "main.fee535ea.js.map": "/portfolio/static/js/main.fee535ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a2c7a89.css",
-    "static/js/main.2d76c679.js"
+    "static/css/main.ddf61a7d.css",
+    "static/js/main.fee535ea.js"
   ]
 }
